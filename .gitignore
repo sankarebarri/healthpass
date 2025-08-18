@@ -1,0 +1,53 @@
+# ==============================
+# Django / Python Project Ignore
+# ==============================
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# SQLite database (local dev only)
+db.sqlite3
+
+# Logs
+*.log
+
+# Environment & secrets
+.env
+.env.*        # any extra env files
+!.env.example  # keep a template of required env vars
+
+# Media uploads (user-generated files, not source code)
+media/
+
+# Static files collected for deployment
+staticfiles/
+collected_static/
+
+# IDE / editor stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
