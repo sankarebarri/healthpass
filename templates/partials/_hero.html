@@ -1,0 +1,65 @@
+{% load i18n %}
+<section class="hp-hero hp-section">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6">
+        <span class="badge text-bg-primary rounded-pill mb-2">
+          <i class="bi bi-shield-lock-fill me-1"></i> {% trans "Patient-controlled" %}
+        </span>
+        <h1 class="display-5 fw-semibold text-primary">{% trans "Your health record, wherever you are." %}</h1>
+        <p class="lead hp-muted mt-3">
+          {% trans "Keep your allergies, medications and conditions in one secure place. Share an emergency summary in seconds — only when you choose." %}
+        </p>
+        <div class="d-flex flex-wrap gap-2 mt-3">
+          <a class="btn btn-primary btn-lg" href="#"><i class="bi bi-rocket-takeoff me-1"></i> {% trans "Create your free record" %}</a>
+          <a class="btn btn-outline-secondary btn-lg" href="#how"><i class="bi bi-info-circle me-1"></i> {% trans "How it works" %}</a>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <span class="hp-badge bg-primary-subtle text-primary"><i class="bi bi-shield-check me-1"></i> {% trans "Encrypted" %}</span>
+          <span class="hp-badge bg-success-subtle text-success"><i class="bi bi-wifi-off me-1"></i> {% trans "Low-connectivity friendly" %}</span>
+          <span class="hp-badge bg-warning-subtle text-warning"><i class="bi bi-translate me-1"></i> EN / FR</span>
+          <span class="hp-badge bg-info-subtle text-info"><i class="bi bi-file-medical me-1"></i> {% trans "Emergency summary" %}</span>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card hp-card">
+          <div class="card-body">
+            <div class="d-flex align-items-center justify-content-between">
+              <h2 class="h6 mb-0">{% trans "Emergency Summary (preview)" %}</h2>
+              <span class="badge text-bg-info"><i class="bi bi-eye-fill me-1"></i> {% trans "Read-only" %}</span>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="mb-1"><strong>{% trans "Blood group:" %}</strong> O+</p>
+                <p class="mb-1"><strong>{% trans "Emergency contact:" %}</strong> +223 66 00 00 00</p>
+              </div>
+              <div class="col-sm-6 text-sm-end">
+                <span class="badge text-bg-success">{% trans "OK to share" %}</span>
+              </div>
+            </div>
+            <div class="row mt-3 g-3">
+              <div class="col-12 col-md-4">
+                <h3 class="h6"><i class="bi bi-exclamation-octagon-fill text-danger me-1"></i> {% trans "Allergies" %}</h3>
+                <ul class="small mb-0"><li>Penicillin</li><li>Peanuts</li></ul>
+              </div>
+              <div class="col-12 col-md-4">
+                <h3 class="h6"><i class="bi bi-capsule-pill text-primary me-1"></i> {% trans "Medications" %}</h3>
+                <ul class="small mb-0"><li>Metformin</li><li>Lisinopril</li></ul>
+              </div>
+              <div class="col-12 col-md-4">
+                <h3 class="h6"><i class="bi bi-clipboard2-pulse-fill text-success me-1"></i> {% trans "Conditions" %}</h3>
+                <ul class="small mb-0"><li>Asthma</li><li>Type 2 DM</li></ul>
+              </div>
+            </div>
+            <div class="alert alert-secondary mt-3 mb-0 py-2 small">
+              {% trans "This is a static preview; real data is shown only with your consent." %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </div>
+</section>

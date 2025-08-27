@@ -1,0 +1,44 @@
+{% load i18n %}
+<section id="features" class="hp-features hp-section">
+  <div class="container">
+    <h2 class="h3 text-center mb-4">{% trans "Feature highlights" %}</h2>
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-3">
+        <div class="card hp-card h-100">
+          <div class="card-body">
+            <div class="hp-card-icon mb-2 text-primary"><i class="bi bi-qr-code-scan"></i></div>
+            <h3 class="h6">{% trans "Emergency QR" %}</h3>
+            <p class="small mb-0 hp-muted">{% trans "Read-only summary with only the fields you approve." %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card hp-card h-100">
+          <div class="card-body">
+            <div class="hp-card-icon mb-2 text-success"><i class="bi bi-file-earmark-arrow-up"></i></div>
+            <h3 class="h6">{% trans "Document uploads" %}</h3>
+            <p class="small mb-0 hp-muted">{% trans "Store prescriptions and discharge notes in your record." %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card hp-card h-100">
+          <div class="card-body">
+            <div class="hp-card-icon mb-2 text-warning"><i class="bi bi-shield-check"></i></div>
+            <h3 class="h6">{% trans "Audit trail" %}</h3>
+            <p class="small mb-0 hp-muted">{% trans "See when your emergency link was viewed. (Soon)" %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card hp-card h-100">
+          <div class="card-body">
+            <div class="hp-card-icon mb-2 text-danger"><i class="bi bi-translate"></i></div>
+            <h3 class="h6">{% trans "English & French" %}</h3>
+            <p class="small mb-0 hp-muted">{% trans "Bilingual from day one; more languages later." %}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

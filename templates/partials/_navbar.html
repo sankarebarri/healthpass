@@ -1,0 +1,39 @@
+{% load i18n %}
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="/">
+      <i class="bi bi-heart-pulse-fill text-primary me-1"></i> {% trans "HealthPass" %}
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hpNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="hpNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item mx-lg-2"><a class="nav-link" href="#how">{% trans "How it works" %}</a></li>
+        <li class="nav-item mx-lg-2"><a class="nav-link" href="#features">{% trans "Features" %}</a></li>
+        <li class="nav-item mx-lg-2"><a class="nav-link" href="#privacy">{% trans "Privacy" %}</a></li>
+
+        <li class="nav-item mx-lg-2">
+          <a class="btn btn-outline-secondary btn-sm ms-lg-2" href="/accounts/login/">
+            <i class="bi bi-box-arrow-in-right me-1"></i> {% trans "Sign in" %}
+          </a>
+        </li>
+        <li class="nav-item mx-lg-2 mt-2 mt-lg-0">
+          <a class="btn btn-primary btn-sm ms-lg-2" href="#">
+            <i class="bi bi-person-plus me-1"></i> {% trans "Create account" %}
+          </a>
+        </li>
+
+        <!-- Visible EN / FR toggle (visual only for now) -->
+        <li class="nav-item ms-lg-3">
+          <div class="btn-group lang-toggle" role="group" aria-label="{% trans 'Language' %}">
+            <a href="#" class="btn btn-outline-primary btn-sm active">EN</a>
+            <a href="#" class="btn btn-outline-primary btn-sm">FR</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
