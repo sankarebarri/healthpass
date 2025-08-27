@@ -29,9 +29,27 @@
         <!-- Visible EN / FR toggle (visual only for now) -->
         <li class="nav-item ms-lg-3">
           <div class="btn-group lang-toggle" role="group" aria-label="{% trans 'Language' %}">
-            <a href="#" class="btn btn-outline-primary btn-sm active">EN</a>
-            <a href="#" class="btn btn-outline-primary btn-sm">FR</a>
-          </div>
+            <!-- EN button -->
+             <form action="{% url 'set_language' %}" method="post", class="d-inline">
+                {% csrf_token %}
+                <input type="hidden" name="language" value="en">
+                <input type="hidden" name="next", value="{{ request.get_full_path }}">
+                <button type="submit"
+                        class="btn btn-outline-primary btn-sm {% if request.LANGUAGE_CODE == 'en' %}active{% endif %}">
+                        EN
+                </button>
+             </form>
+             <!-- FR button -->
+             <form action="{% url 'set_language' %}" method="post", class="d-inline">
+                {% csrf_token %}
+                <input type="hidden" name="language" value="fr">
+                <input type="hidden" name="next", value="{{ request.get_full_path }}">
+                <button type="submit"
+                        class="btn btn-outline-primary btn-sm {% if request.LANGUAGE_CODE == 'fr' %}active{% endif %}">
+                        FR
+                </button>
+             </form>
+            </div>
         </li>
       </ul>
     </div>

@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: templates/base.html:10 templates/records/home.html:4
+msgid "HealthPass — Your health record, wherever you are"
+msgstr "HealthPass — Votre dossier médical, où que vous soyez."
+
+#: templates/base.html:11
+msgid ""
+"Keep allergies, medications and conditions in one secure place. Share an "
+"emergency summary in seconds — only when you choose."
+msgstr "Gardez vos allergies, médicaments et conditions dans un endroit sécurisé. Partagez un résumé d'urgence en quelques secondes — seulement quand vous le choisissez."
+
+#: templates/partials/_band.html:4
+msgid "Fast setup"
+msgstr "Configuration rapide"
+
+#: templates/partials/_band.html:5
+msgid "Secure by default"
+msgstr "Sécurisé par défaut"
+
+#: templates/partials/_band.html:6
+msgid "Mobile-friendly"
+msgstr "Compatible mobile"
+
+#: templates/partials/_band.html:7
+msgid "EN & FR"
+msgstr "EN & FR"
+
+#: templates/partials/_features.html:4
+msgid "Feature highlights"
+msgstr "Points forts des fonctionnalités"
+
+#: templates/partials/_features.html:10
+msgid "Emergency QR"
+msgstr "QR d'urgence"
+
+#: templates/partials/_features.html:11
+msgid "Read-only summary with only the fields you approve."
+msgstr "Résumé en lecture seule avec seulement les champs que vous approuvez."
+
+#: templates/partials/_features.html:19
+msgid "Document uploads"
+msgstr "Téléchargement de documents"
+
+#: templates/partials/_features.html:20
+msgid "Store prescriptions and discharge notes in your record."
+msgstr "Stockez les ordonnances et notes de sortie dans votre dossier."
+
+#: templates/partials/_features.html:28
+msgid "Audit trail"
+msgstr "Traçabilité"
+
+#: templates/partials/_features.html:29
+msgid "See when your emergency link was viewed. (Soon)"
+msgstr "Voyez quand votre lien d'urgence a été consulté. (Bientôt)"
+
+#: templates/partials/_features.html:37
+msgid "English & French"
+msgstr "Anglais et Français"
+
+#: templates/partials/_features.html:38
+msgid "Bilingual from day one; more languages later."
+msgstr "Bilingue dès le premier jour ; plus de langues plus tard."
+
+#: templates/partials/_final_cta.html:4
+msgid "Create your health record in minutes."
+msgstr "Créez votre dossier médical en quelques minutes."
+
+#: templates/partials/_final_cta.html:5
+msgid "Start free. You're in control."
+msgstr "Commencez gratuitement. Vous êtes aux commandes."
+
+#: templates/partials/_final_cta.html:7
+msgid "Get started"
+msgstr "Commencer"
+
+#: templates/partials/_final_cta.html:8 templates/partials/_navbar.html:20
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: templates/partials/_footer.html:4 templates/partials/_navbar.html:5
+msgid "HealthPass"
+msgstr "HealthPass"
+
+#: templates/partials/_footer.html:6
+msgid "About"
+msgstr "À propos"
+
+#: templates/partials/_footer.html:7 templates/partials/_navbar.html:16
+msgid "Privacy"
+msgstr "Confidentialité"
+
+#: templates/partials/_footer.html:8
+msgid "Terms"
+msgstr "Conditions"
+
+#: templates/partials/_footer.html:9
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/partials/_hero.html:7
+msgid "Patient-controlled"
+msgstr "Contrôlé par le patient"
+
+#: templates/partials/_hero.html:9
+msgid "Your health record, wherever you are."
+msgstr "Votre dossier médical, où que vous soyez."
+
+#: templates/partials/_hero.html:11
+msgid ""
+"Keep your allergies, medications and conditions in one secure place. Share "
+"an emergency summary in seconds — only when you choose."
+msgstr "Gardez vos allergies, médicaments et conditions dans un endroit sécurisé. Partagez un résumé d'urgence en quelques secondes — seulement quand vous le choisissez."
+
+#: templates/partials/_hero.html:14
+msgid "Create your free record"
+msgstr "Créez votre dossier gratuit"
+
+#: templates/partials/_hero.html:15 templates/partials/_how.html:4
+#: templates/partials/_navbar.html:14
+msgid "How it works"
+msgstr "Comment ça marche"
+
+#: templates/partials/_hero.html:19
+msgid "Encrypted"
+msgstr "Chiffré"
+
+#: templates/partials/_hero.html:20
+msgid "Low-connectivity friendly"
+msgstr "Compatible faible connectivité"
+
+#: templates/partials/_hero.html:22
+msgid "Emergency summary"
+msgstr "Résumé d'urgence"
+
+#: templates/partials/_hero.html:30
+msgid "Emergency Summary (preview)"
+msgstr "Résumé d'urgence (aperçu)"
+
+#: templates/partials/_hero.html:31
+msgid "Read-only"
+msgstr "Lecture seule"
+
+#: templates/partials/_hero.html:36
+msgid "Blood group:"
+msgstr "Groupe sanguin :"
+
+#: templates/partials/_hero.html:37
+msgid "Emergency contact:"
+msgstr "Contact d'urgence :"
+
+#: templates/partials/_hero.html:40
+msgid "OK to share"
+msgstr "OK pour partager"
+
+#: templates/partials/_hero.html:45
+msgid "Allergies"
+msgstr "Allergies"
+
+#: templates/partials/_hero.html:49
+msgid "Medications"
+msgstr "Médicaments"
+
+#: templates/partials/_hero.html:53
+msgid "Conditions"
+msgstr "Conditions"
+
+#: templates/partials/_hero.html:58
+msgid "This is a static preview; real data is shown only with your consent."
+msgstr "Ceci est un aperçu statique ; les vraies données ne sont affichées qu'avec votre consentement."
+
+#: templates/partials/_how.html:10
+msgid "Add your essentials"
+msgstr "Ajoutez vos éléments essentiels"
+
+#: templates/partials/_how.html:11
+msgid ""
+"Allergies, medications, conditions and emergency contact — kept securely."
+msgstr "Allergies, médicaments, conditions et contact d'urgence — conservés en sécurité."
+
+#: templates/partials/_how.html:19
+msgid "Save your emergency card"
+msgstr "Sauvegardez votre carte d'urgence"
+
+#: templates/partials/_how.html:20
+msgid "Generate a shareable summary — show only what you approve."
+msgstr "Générez un résumé partageable — montrez seulement ce que vous approuvez."
+
+#: templates/partials/_how.html:28
+msgid "Receive documents securely"
+msgstr "Recevez des documents en sécurité"
+
+#: templates/partials/_how.html:29
+msgid "Clinics can send results via a time-limited Secure Drop link."
+msgstr "Les cliniques peuvent envoyer des résultats via un lien Secure Drop à durée limitée."
+
+#: templates/partials/_impact.html:8
+msgid "Around the world, health records are often scattered or missing."
+msgstr "Dans le monde entier, les dossiers médicaux sont souvent dispersés ou manquants."
+
+#: templates/partials/_impact.html:9
+msgid ""
+"Imagine a traveller in a new city, struggling to explain their medications "
+"in an emergency."
+msgstr "Imaginez un voyageur dans une nouvelle ville, luttant pour expliquer ses médicaments en urgence."
+
+#: templates/partials/_impact.html:10
+msgid ""
+"Imagine a villager with no written records, who can't name their allergies."
+msgstr "Imaginez un villageois sans dossiers écrits, qui ne peut pas nommer ses allergies."
+
+#: templates/partials/_impact.html:11
+msgid ""
+"Imagine someone in crisis, when seconds matter, and their story is locked "
+"away."
+msgstr "Imaginez quelqu'un en crise, quand les secondes comptent, et que son histoire est enfermée."
+
+#: templates/partials/_impact.html:13
+msgid ""
+"HealthPass brings those vital details into your hands — secure, portable, "
+"and always under your control."
+msgstr "HealthPass met ces détails vitaux entre vos mains — sécurisé, portable, et toujours sous votre contrôle."
+
+#: templates/partials/_navbar.html:15
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: templates/partials/_navbar.html:25
+msgid "Create account"
+msgstr "Créer un compte"
+
+#: templates/partials/_navbar.html:31
+msgid "Language"
+msgstr "Langue"
+
+#: templates/partials/_privacy.html:7
+msgid "You own your data."
+msgstr "Vous possédez vos données."
+
+#: templates/partials/_privacy.html:9
+msgid "You decide what appears on your emergency page."
+msgstr "Vous décidez de ce qui apparaît sur votre page d'urgence."
+
+#: templates/partials/_privacy.html:10
+msgid "Revoke access at any time."
+msgstr "Révoquez l'accès à tout moment."
+
+#: templates/partials/_privacy.html:11
+msgid "Data encrypted in transit and at rest."
+msgstr "Données chiffrées en transit et au repos."
+
+#: templates/partials/_privacy.html:14
+msgid "Read our Privacy Summary"
+msgstr "Lire notre résumé de confidentialité"

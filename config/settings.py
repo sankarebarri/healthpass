@@ -22,7 +22,12 @@ DEBUG = env.bool('DEBUG', False)
 SECRET_KEY = env('SECRET_KEY')
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])
 LANGUAGE_CODE = env("LANGUAGE_CODE", default="en")
+LANGUAGES = [
+    ("en", "English"),
+    ("fr", "Français")
+]
 
+LOCALE_PATHS = [BASE_DIR / "locale"]
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
@@ -47,6 +52,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -55,6 +61,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+LANGUAGE_COOKIE_NAME = "hp_lang"
 
 ROOT_URLCONF = 'config.urls'
 
@@ -68,6 +76,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.i18n',
             ],
         },
     },
@@ -109,13 +118,20 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-# LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
+USE_L10N = True
+
 USE_TZ = True
+
+# Language settings
+LANGUAGE_COOKIE_AGE = None  # Cookie expires when browser closes
+LANGUAGE_COOKIE_HTTPONLY = False  # Allow JavaScript access
+LANGUAGE_COOKIE_SECURE = False  # Allow HTTP (for development)
 
 
 # Static files (CSS, JavaScript, Images)
